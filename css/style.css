@@ -127,10 +127,12 @@ ul {
   color: #fff;
   border: none;
   border-radius: 80px;
-  font-size: 44px;
+  font-size: 40px;
   text-transform: uppercase;
-  padding: 20px 35px;
-  line-height: 40px;
+  padding: 18px 30px;
+}
+.banner-section .bg-web a:hover {
+  background-color: #05383f;
 }
 .banner-section .bg-mobile {
   display: none;
@@ -138,19 +140,16 @@ ul {
 }
 .banner-section .bg-mobile a {
   position: absolute;
-
   font-family: Horizon;
   background-color: #ff3392;
   color: #fff;
   border: none;
   border-radius: 80px;
   text-transform: uppercase;
-
   right: 30px;
-  bottom: 30px;
-  font-size: 35px;
-  padding: 15px 30px;
-  line-height: 30px;
+  bottom: 20px;
+  font-size: 18px;
+  padding: 12px 15px;
 }
 /* bootcamp-section */
 .bootcamp-section {
@@ -806,7 +805,6 @@ ul {
   .banner-section .bg-mobile a {
     font-size: 14px;
     padding: 10px 20px;
-    line-height: 16px;
     right: 10px;
     bottom: 20px;
   }
@@ -847,6 +845,12 @@ ul {
   }
   .header-section .brand-logo {
     width: 170px;
+  }
+  .banner-section .bg-mobile a {
+    font-size: 14px;
+    padding: 10px;
+    right: 10px;
+    bottom: 15px;
   }
   .sortable-wrap .price-wrap .price-btn a {
     font-size: 35px;
@@ -1009,6 +1013,10 @@ ul {
     top: -40px !important;
     left: -70px !important;
   } */
+
+  #countdown .vertical-text {
+    font-size: 20px;
+  }
 }
 
 @media only screen and (max-width: 374px) {
@@ -1021,6 +1029,12 @@ ul {
   .bootcamp-section .head-title h1,
   .head-title h1 {
     font-size: 26px;
+  }
+  .banner-section .bg-mobile a {
+    font-size: 12px;
+    padding: 8px;
+    right: 10px;
+    bottom: 10px;
   }
   .annual-membership .annual-membership-inner h1 {
     font-size: 36px;
