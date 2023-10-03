@@ -162,7 +162,7 @@ ul {
   margin-bottom: 10px;
 }
 .bootcamp-section .head-title h1 {
-  font-size: 54px;
+  font-size: 36px;
   color: #fe018a;
   margin-bottom: 0px;
   margin-top: 20px;
@@ -362,43 +362,78 @@ ul {
 /* END-video-area */
 /* annual-membership */
 .annual-membership {
-  padding: 70px 0px;
+  padding: 50px 0px;
   background-color: #fe018a;
 }
 .annual-membership .annual-membership-inner {
   text-align: center;
 }
-.annual-membership .annual-membership-inner h2 {
-  font-size: 115px;
-  color: #ffffff;
+.annual-membership .annual-membership-inner h1 {
+  color: #fff;
+  font-size: 100px;
+  font-weight: bold;
+  font-family: "Inter-Bold";
+  text-transform: capitalize;
   margin-bottom: 0px;
-  font-family: Inter-Bold;
-  text-transform: uppercase;
+  margin-top: 0px;
+  position: relative;
+  display: inline-block;
 }
-.annual-membership .annual-membership-inner h3 {
-  font-size: 60px;
+.annual-membership .annual-membership-inner p {
   color: #000;
+  font-size: 40px;
+  text-transform: capitalize;
+  margin-bottom: 0px;
+  font-family: Chocolates-Bold;
+}
+.annual-membership .annual-membership-inner .price-btn {
+  margin-top: 30px;
   text-align: center;
-  font-size: 48px;
-  font-family: Inter-Bold;
-  margin-top: -5px;
 }
-.annual-membership .annual-membership-inner h3 span {
-  color: #ffffff;
-  text-transform: uppercase;
-}
-.annual-membership .annual-membership-inner .membership-btn a {
+.annual-membership .annual-membership-inner .price-btn a {
   color: rgb(255, 255, 255);
   font-weight: 600;
   background-color: rgb(43, 196, 61);
-  font-size: 44px;
+  font-size: 60px;
   border-radius: 15px;
-  padding: 20px 50px;
+  padding: 16px 30px;
   text-transform: uppercase;
+  line-height: 60px;
+}
+.annual-membership .annual-membership-inner .price-btn a:hover {
+  background-color: #14b327;
+}
+.annual-membership .annual-membership-inner .price-btn a p {
+  color: #fff;
+}
+.annual-membership .annual-membership-inner .price-btn a p span {
+  position: relative;
+}
+.annual-membership .annual-membership-inner .price-btn a p span::after {
+  content: "";
+  position: absolute;
+  background-image: url(..//img/line-price.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 150px;
+  height: 100%;
+  left: -10px;
+  bottom: -40px;
+}
+
+.annual-membership .annual-membership-inner .price-btn h2 {
+  font-family: Chocolates-Bold;
+  color: #fff;
+  font-size: 75px;
+  margin-bottom: 0px;
   margin-top: 40px;
 }
-.annual-membership .annual-membership-inner .membership-btn a:hover {
-  background-color: #14b327;
+.annual-membership .annual-membership-inner .price-btn h2 img {
+  width: 130px;
+  margin-right: -20px;
+}
+.annual-membership .annual-membership-inner .price-btn h2 span {
+  color: #000;
 }
 /* register-section */
 .register-section {
@@ -530,6 +565,29 @@ ul {
   .sortable-wrap .bootcamp-start h3 {
     font-size: 46px;
   }
+  .annual-membership .annual-membership-inner .price-btn a {
+    font-size: 28px;
+    padding: 20px 40px;
+    line-height: 40px;
+  }
+  .annual-membership .annual-membership-inner .price-btn a p {
+    font-size: 38px;
+  }
+  .annual-membership .annual-membership-inner .price-btn a p span::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    bottom: -30px;
+  }
+  .annual-membership .annual-membership-inner .price-btn h2 {
+    font-size: 45px;
+  }
+  .annual-membership .annual-membership-inner .price-btn h2 img {
+    width: 100px;
+    margin-right: -10px;
+  }
   #countdown {
     flex-wrap: wrap;
   }
@@ -561,6 +619,13 @@ ul {
     font-size: 35px;
     padding: 15px 30px;
     line-height: 30px;
+  }
+  .annual-membership .annual-membership-inner h1 {
+    font-size: 80px;
+  }
+  .annual-membership .annual-membership-inner .price-btn a {
+    font-size: 38px;
+    padding: 16px 40px;
   }
   .sortable-wrap .bootcamp-start h3 {
     display: flex;
@@ -647,6 +712,22 @@ ul {
   .header-section .wrap-btn a {
     width: 130px;
   }
+  .annual-membership .annual-membership-inner h1 {
+    font-size: 60px;
+  }
+  .annual-membership .annual-membership-inner p {
+    font-size: 28px;
+  }
+  .annual-membership .annual-membership-inner .price-btn a p {
+    font-size: 28px;
+  }
+  .annual-membership .annual-membership-inner .price-btn h2 {
+    font-size: 32px;
+  }
+  .annual-membership .annual-membership-inner .price-btn h2 img {
+    width: 60px;
+    margin-right: -5px;
+  }
   .countdown-wrap ul {
     margin-top: 10px;
     text-align: center;
@@ -677,13 +758,7 @@ ul {
     height: 300px;
   }
   .annual-membership {
-    padding: 40px 0px;
-  }
-  .annual-membership .annual-membership-inner h2 {
-    font-size: 60px;
-  }
-  .annual-membership .annual-membership-inner h3 {
-    font-size: 30px;
+    padding: 50px 0px;
   }
   .story-section .stroy-wrap h4 {
     font-size: 14px;
@@ -743,17 +818,8 @@ ul {
     padding: 70px 0px;
     margin-top: 0px;
   }
-  .annual-membership .annual-membership-inner h2 {
-    font-size: 45px;
-  }
-  .annual-membership .annual-membership-inner h3 {
-    font-size: 22px;
-    margin-top: 10px;
-  }
-  .annual-membership .annual-membership-inner .membership-btn a {
-    font-size: 30px;
-    padding: 15px 30px;
-    margin-top: 20px;
+  .annual-membership {
+    padding: 40px 0px;
   }
 }
 @media only screen and (max-width: 525px) {
@@ -866,7 +932,37 @@ ul {
   .testimonials-section {
     padding: 40px 0px 0px;
   }
-
+  .annual-membership .annual-membership-inner h1 {
+    font-size: 45px;
+  }
+  .annual-membership .annual-membership-inner p {
+    font-size: 25px;
+    letter-spacing: 0px;
+    margin-top: 0px;
+  }
+  .annual-membership .annual-membership-inner .price-btn a {
+    font-size: 35px;
+    padding: 15px 30px;
+    margin-top: 0px;
+  }
+  .annual-membership .annual-membership-inner .price-btn a p {
+    font-size: 25px;
+    letter-spacing: 0px;
+    margin-top: 0px;
+  }
+  .annual-membership .annual-membership-inner .price-btn a p span::after {
+    content: "";
+    width: 80px;
+    left: -5px;
+    bottom: -26px;
+  }
+  .annual-membership .annual-membership-inner .price-btn h2 {
+    font-size: 22px;
+  }
+  .annual-membership .annual-membership-inner .price-btn h2 img {
+    width: 40px;
+    margin-right: 0px;
+  }
   .story-section .head-title {
     margin-bottom: 20px;
   }
@@ -926,8 +1022,20 @@ ul {
   .head-title h1 {
     font-size: 26px;
   }
-  .annual-membership .annual-membership-inner h2 {
-    font-size: 35px;
+  .annual-membership .annual-membership-inner h1 {
+    font-size: 36px;
+  }
+  .annual-membership .annual-membership-inner p {
+    font-size: 20px;
+  }
+  .annual-membership .annual-membership-inner .price-btn a {
+    font-size: 24px;
+    padding: 15px 30px;
+    margin-top: 0px;
+    line-height: 30px;
+  }
+  .annual-membership .annual-membership-inner .price-btn a p {
+    font-size: 20px;
   }
   #countdown .vertical-text {
     font-size: 20px;
