@@ -494,12 +494,15 @@ ul {
   margin-bottom: 0px;
 }
 .subscribe-dec h2 {
-  color: #fe018a;
-  font-size: 185px;
+  color: #fff;
+  font-size: 110px;
   font-family: Inter-Bold;
-  margin-bottom: 0px;
-  margin-top: 30px;
+  margin-bottom: 70px;
+  margin-top: 70px;
   text-transform: uppercase;
+}
+.subscribe-dec h2 span {
+  color: #fe018a;
 }
 .subscribe-dec h3 {
   font-size: 55px;
@@ -556,6 +559,9 @@ ul {
 
 @media only screen and (max-width: 1400px) {
   .subscribe-dec h1 {
+    font-size: 60px;
+  }
+  .subscribe-dec h2 {
     font-size: 80px;
   }
 }
@@ -609,6 +615,12 @@ ul {
 @media only screen and (max-width: 992px) {
   .section-gab {
     padding: 50px 0px 0px;
+  }
+  .subscribe-dec h1 {
+    font-size: 40px;
+  }
+  .subscribe-dec h2 {
+    font-size: 60px;
   }
   .header-section .sec-img {
     width: 80%;
@@ -769,11 +781,12 @@ ul {
     border: none;
   }
   .subscribe-dec h1 {
-    font-size: 50px;
+    font-size: 30px;
   }
   .subscribe-dec h2 {
-    color: #fe018a;
-    font-size: 95px;
+    font-size: 45px;
+    margin-bottom: 50px;
+    margin-top: 50px;
   }
   .subscribe-dec h3 {
     font-size: 40px;
@@ -973,11 +986,10 @@ ul {
     margin-bottom: 20px;
   }
   .subscribe-dec h1 {
-    font-size: 44px;
+    font-size: 25px;
   }
   .subscribe-dec h2 {
-    color: #fe018a;
-    font-size: 80px;
+    font-size: 33px;
   }
   .subscribe-dec h3 {
     font-size: 30px;
@@ -1023,10 +1035,12 @@ ul {
 
 @media only screen and (max-width: 374px) {
   .subscribe-dec h2 {
-    font-size: 60px;
+    font-size: 27px;
+    margin-bottom: 40px;
+    margin-top: 40px;
   }
   .subscribe-dec h1 {
-    font-size: 36px;
+    font-size: 25px;
   }
   .bootcamp-section .head-title h1,
   .head-title h1 {
