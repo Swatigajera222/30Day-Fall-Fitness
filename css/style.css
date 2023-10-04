@@ -772,6 +772,7 @@ ul {
   }
   .annual-membership {
     padding: 50px 0px;
+    display: none;
   }
   .story-section .stroy-wrap h4 {
     font-size: 14px;
