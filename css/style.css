@@ -363,6 +363,7 @@ ul {
 .annual-membership {
   padding: 50px 0px;
   background-color: #fe018a;
+  display: none;
 }
 .annual-membership .annual-membership-inner {
   text-align: center;
